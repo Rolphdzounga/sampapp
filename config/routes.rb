@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   resources :users
   get 'users/new'
   get 'signup' =>  'users#new', as: 'signup'
