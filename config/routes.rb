@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'users/new'
-  get 'signup',  :to => 'users#new'
+  get 'signup' =>  'users#new', as: 'signup'
 
   get 'pages/home'
 

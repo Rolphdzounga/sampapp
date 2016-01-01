@@ -23,7 +23,7 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
- 	
+  gem 'annotate', github: 'ctran/annotate_models'
   gem 'spring'
 end
 
