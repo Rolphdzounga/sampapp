@@ -15,6 +15,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt-ruby' 
 gem 'gravatar_image_tag'
 gem 'bootstrap-sass'
+gem 'will_paginate'       
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'byebug'
